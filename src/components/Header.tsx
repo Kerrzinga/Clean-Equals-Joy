@@ -55,10 +55,12 @@ export default function Header() {
           {/* CTA */}
           <div className="hidden md:flex items-center">
             <a
-              href="tel:0224045867"
+              href="https://kerrzinga.nz/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-cyan-700 hover:bg-cyan-800 text-white px-5 py-2 rounded-full font-semibold transition shadow-md flex items-center gap-2"
             >
-              <span>✆</span> 022-404-5867
+              Buy this site now!
             </a>
           </div>
 
@@ -89,11 +91,13 @@ export default function Header() {
               </button>
             ))}
             <a
-              href="tel:0224045867"
+              href="https://kerrzinga.nz/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block w-full text-center mt-4 bg-cyan-700 text-white px-3 py-3 rounded-md font-bold"
               onClick={() => setMobileOpen(false)}
             >
-              ✆ 022-404-5867
+              Buy this site now!
             </a>
           </div>
         </div>
